@@ -1,0 +1,25 @@
+                                    Project Name : User profile 
+                                    Created By: Karan Sabnani
+                                    Created On: 06/08/21
+
+
+
+Description: 
+
+This project displays the profile of 10 users along with their Avatar . The user data is fetch from an api and the avatar picture is  being fetched from another api by passing the user's username.
+
+The project is build using react js.
+
+There are mainly three components App , userprofile and Avatar.
+
+The App component get the data from the Api and call the Userprofile component for each user.
+
+The User component displays the data and call the Avatar component for the Avatar picture of the user.
+
+The Avatar component return the avatar for the user based on his.her username.
+
+There is also a loader in App component which will be displayed while the data is fetched from the user.
+
+There are separate css files for the components to style the component.
+
+The index.js file render the whole in strict mode and return to index.html in public folder which displays the users profile.
